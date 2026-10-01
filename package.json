@@ -1,0 +1,26 @@
+{
+  "name": "nervant-pattern-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build",
+    "test": "node --experimental-strip-types src/pattern.test.ts"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "dialkit": "^2.0.2",
+    "motion": "^13.3.0",
+    "three": "^0.186.0",
+    "lucide-react": "^1.46.0"
+  },
+  "devDependencies": {
+    "vite": "^8.3.0",
+    "typescript": "^7.0.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.186.0"
+  }
+}
